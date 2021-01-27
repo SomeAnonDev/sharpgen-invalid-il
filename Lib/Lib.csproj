@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="5.0.0" />
+    <PackageReference Include="SharpGen.Runtime" Version="1.2.1" />
+    <PackageReference Include="SharpGenTools.Sdk" Version="1.2.1" PrivateAssets="All" />
+  </ItemGroup>
+  
+</Project>
